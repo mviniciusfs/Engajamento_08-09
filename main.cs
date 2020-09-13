@@ -11,7 +11,7 @@ class MainClass {
   public static void Main (string[] args) {
     Pessoa p = new Pessoa();
 
-    p.Atributos("Teste", 16, 85, 1.83);
+    p.retornaAtributos("Teste", 16, 85, 1.83);
 
     p.dadosPessoa();    
 

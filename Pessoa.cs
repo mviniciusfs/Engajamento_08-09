@@ -6,7 +6,7 @@ class Pessoa
   private int idade;
   private double peso, altura;
 
-  public void Atributos(string n, int i, double p, double a)
+  public void retornaAtributos(string n, int i, double p, double a)
   {
     nome = n;
     idade = i;
